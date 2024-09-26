@@ -183,3 +183,43 @@ section {
   font-style: italic;
 }
 
+/* Nav Menu Animation */
+.borderYtoX {
+  font-family: Roboto;
+  margin: 0 auto;
+	padding: 3em 1em;
+	text-align: center;
+}
+.borderYtoX a {
+    color: #000;
+    text-decoration: none;
+    font: 20px Roboto;
+    margin: 0px 10px;
+    padding: 10px 15px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+.borderYtoX a:before, .borderYtoX a:after {
+    position: absolute;
+    opacity: 0.5;
+    height: 100%;
+    width: 3px;
+    content: '';
+    background: blue;
+    transition: all 0.3s;
+}
+.borderYtoX a:before {
+    left: 0px;
+    top: 0px;
+}
+.borderYtoX a:after {
+    right: 0px;
+    bottom: 0px;
+}
+.borderYtoX a:hover:before, .borderYtoX a:hover:after {
+    opacity: 1;
+    height: 2px;
+    width: 100%;
+}
+
