@@ -55,3 +55,19 @@ section {
   background-color: #F5F5F5;
 }
 
+/* About Section */
+.about-section {
+  text-align: center;
+}
+.about-content {
+  margin-bottom: 20px;
+}
+.about-me-p {
+  display: flex;
+
+}
+/* Services & Skills Section */
+.services-skills-section {
+  display: block;
+  padding: 20px;
+}
