@@ -110,3 +110,54 @@ section {
   justify-content: center;
 }
 
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-top: 15px;
+  font-size: 14px;
+  word-wrap: break-word;
+  justify-content: space-around;
+  max-height: 318px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+/* Experience Buttons */
+.experience-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.experience-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid #000;
+  background-color: #FFF;
+  border-radius: 50%;
+  font-size: 16px;
+  text-align: center;
+  width: 85px;
+  height: 85px;
+  line-height: 1.2;
+  text-decoration: none;
+  color: #000;
+  transition: background-color 0.3s ease;
+  word-wrap: break-word;
+}
+.experience-button:hover {
+  background-color: #ddd;
+}
+.what-i-can-do {
+  display: flex;
+  justify-content: flex-start;
+}
+
