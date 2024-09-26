@@ -1,0 +1,19 @@
+/* Global Styles */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "roboto-thin", sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: "roboto-regular", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
