@@ -97,3 +97,16 @@ section {
   color: black;
   text-decoration: none;
 }
+/* Contact Section */
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.contact-section {
+  display: block;
+  padding: 20px;
+  gap: 30px;
+  justify-content: center;
+}
+
