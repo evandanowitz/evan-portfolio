@@ -161,6 +161,18 @@ section {
   justify-content: flex-start;
 }
 
+/* Image/Portrait Styling */
+.evan-portrait-container {
+  margin-top: 20px;
+}
+.evan-portrait {
+  width: 100%;
+  max-width: 475px;
+  max-height: auto;
+  border-radius: 20px;
+}
+
+
 /* Individual Project File Section */
 .indiv-proj-file-img {
   display: block;
