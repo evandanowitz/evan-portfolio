@@ -17,3 +17,32 @@ h1 {
   box-sizing: border-box;
 }
 
+/* Navigation Bar */
+nav {
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #FFF;
+  padding: 15px;
+  border: 3px solid blue;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 18px;
+}
+nav ul li a:hover {
+  background-color: #fff;
+}
+
